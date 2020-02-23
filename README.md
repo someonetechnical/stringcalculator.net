@@ -19,3 +19,11 @@ The String Calculator
 
 Indications:
 Use TTD
+
+
+Notes:
+- didn't know if I am allowed to use built in methods (eg int.TryParse()), so I implemented two Add methods, one with and one without built in methods.
+- didn't handle floating point numbers
+- didn't know how to handle concatenated separators (eg 1,2,,\n). Treated like empy strings (eg 1,2, , \n ~= 1,2,0,0 = 3).
+- didn't know if the separator can be multiple characters or just a single charactor. From examples assumed just single character separator.
+- I was able to use TDD up to certain point, after having to parse separators I switched from writing the test 1st and then the logic, to writing the logic first then the tests.
