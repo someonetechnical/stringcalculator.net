@@ -88,6 +88,16 @@ namespace StringCalculator.Tests
         }
 
         [Fact]
+        public void Add_PassStringFloatingPointValue_ThrowsException()
+        {
+            //Arrange
+            var value = "2.1";
+
+            //Act, Assert
+            var exception = Assert.Throws<FormatException>(() => CalculatorWithBuiltIn.Add(value));
+        }
+
+        [Fact]
         public void Add_PassStringNegativeValue_ThrowsException()
         {
             //Arrange
