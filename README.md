@@ -20,6 +20,8 @@ The String Calculator
 Indications:
 Use TTD
 
+Requirements:
+- .Net Core 3.1
 
 Notes:
 - didn't know if I am allowed to use built in methods (eg int.TryParse()), so I implemented two Add methods, one with and one without built in methods.
